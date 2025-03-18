@@ -7,13 +7,5 @@ main()
 	float celsius;
 	printf("Digite uma temperatura em Celsius: ");
 	scanf("%f",&celsius);
-	printf("\nConversão de celsius para Fahrenheit: %.2f",(celsius * 9.0/5.0) + 32);
-	printf("\nConversão de celsius para Kelvin: %.2f",(celsius +273));
-	
-	
-	
-	
-	
+	printf("\nConversão de celsius para Fahrenheit: %.2f",(celsius +273));
 }
-
- 
